@@ -1,4 +1,4 @@
 # Computer-Studies
 - Computer Studies
-- First edit
+- ~~First edit~~
 - ***First test***
