@@ -1,3 +1,4 @@
+#Basic linux commands
 -uname (basic user info) -a (more info)
 -echo $0 (outputs terminal name)
 -pwd (show in which folder i am atm)
