@@ -7,7 +7,7 @@
 - cat (execute with extra steps)
 - whoami (outputs my username)
 - history (shows used commands log)
-- \ (basically space)
+- ***\ (basically space)***
 - cp filename /....../ (copy to given dir)
 - mv filename /....../ (move to given dir)
 - mkdir dirname (make new directory)
