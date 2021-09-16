@@ -2,7 +2,7 @@
 - uname (basic user info) -a (more info)
 - echo $0 (outputs terminal name)
 - pwd (shows in which folder i am atm)
-- ls (shows content of the folder i am in atm) -al (shows all possible info) -a (the usefull one)
+- ls (shows content of the folder i am in atm) -al (shows all possible info) -a (the useful one)
 - cd ...../ (basic movement) cd (goes to start) cd .. (move back 1 dir)
 - cat (execute with extra steps)
 - whoami (outputs my username)
