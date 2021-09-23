@@ -17,3 +17,4 @@
 - nano filename (edit code)
 - gcc -save-temps filename.c -o newfilename(rename) (compile source code)
 - hexdump (see hexadecimal encoding i guess)
+- filename.c(source code file) filename.i(pre-processed file) filename.s(compiled file) filename.o(assembled file)
