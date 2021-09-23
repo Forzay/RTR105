@@ -16,3 +16,4 @@
 - echo $? (error check)
 - nano filename (edit code)
 - gcc -save-temps filename.c -o newfilename(rename) (compile source code)
+- hexdump (see hexadecimal encoding i guess)
