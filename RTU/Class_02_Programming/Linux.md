@@ -13,4 +13,4 @@
 - mkdir dirname (make new directory)
 - rmdir dirname (Test1 removed)
 - rm thingname (removed copied thing)
-- echo $? /error check)
+- echo $? (error check)
