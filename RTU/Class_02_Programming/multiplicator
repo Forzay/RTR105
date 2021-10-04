@@ -7,4 +7,3 @@ int main()
  printf ("lli \n", x * y);
  return 0;
  }
- 
