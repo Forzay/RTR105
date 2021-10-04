@@ -4,6 +4,6 @@ int main()
  puts ("Enter 2 values that you want to multiply (example: 10 -5000)");
  long long x, y;
  scanf ("%lli%lli", &x, &y);
- printf ("lli \n", x * y);
+ printf ("%lli \n", x * y);
  return 0;
  }
