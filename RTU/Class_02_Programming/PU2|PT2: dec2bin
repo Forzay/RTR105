@@ -1,27 +1,28 @@
 #include <stdio.h>
-long size_of_array = 8;
-const char * restrict main()
+unsigned long size_of_array = 8; 
+
+int main()
 {
-char x, index, c;
-char bin[size_of_array];
-printf("Please enter any natural number(ex: 5) \n");
-scanf("%c", &x);
-index = (size_of_array - 1);
-while(index >= 0)
-{
-bin[index] = x & 1;
-index--;
-x >>= 1;
-}
-printf("Your Converted number: ");
-for(c=0; c<size_of_array; c++)
-{
-printf("%d", bin[c]);
-}
-{
-printf("\n");
-}
-{
-return 0;
-}
+    int num, index, i;
+    int bin[size_of_array];
+
+    printf("Enter any number: ");
+    scanf("%d", &num);
+
+    index = size_of_array - 1;
+
+    while(index >= 0)
+    {
+        bin[index] = num & 1; 
+        index--; 
+        num >>= 1; 
+    }
+
+    printf("Converted binary: "); 
+    for(i=0; i<size_of_array; i++)
+    {
+        printf("%d", bin[i]);
+    }
+
+    return 0;
 }
