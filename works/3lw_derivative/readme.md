@@ -62,5 +62,4 @@ TEST
 
 ![image](https://user-images.githubusercontent.com/90374721/152211881-c9e0e185-1624-42b4-87da-d3fa084546c8.png)
 
-![3Laba](https://user-images.githubusercontent.com/90374721/152211958-561dba68-f7e6-4b73-add2-acd4ee1d680b.jpg)
 
