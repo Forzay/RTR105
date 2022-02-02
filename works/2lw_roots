@@ -1,0 +1,47 @@
+CODE
+
+#include<stdio.h>
+#include<math.h>
+
+int main() {
+ float a,c ,b ,x ,delta_x,funkca, funkcb, funkcx;
+ int i=0;
+
+  printf("Root solver: \n");
+
+  printf("Please enter limit begining: ");
+  scanf ("%f", &a);
+
+  printf("Please enter limit end: ");
+  scanf ("%f", &b);
+
+  printf("Please enter precisity: ");
+  scanf ("%e", &delta_x);
+
+  printf("Please enter y: ");
+  scanf ("%f", &c);
+
+  funkca = sin(a)-c; funkcb = sin(b)-c;
+
+  printf("sin(%7.3f)-%7.3f=%7.3f\t\t\t\t\t\t\t",a,c,funkca);
+  printf("sin(%7.3f)-%7.3f=%7.3f\n",b,c,funkcb);
+
+ while ((b-a)>delta_x){
+  x = (a+b)/2.;
+  if(funkca*(sin(x)-c)>0)
+   a = x;
+  else
+   b = x;
+  printf("sin(%7.3f)-%7.3f=%7.3f\t",a,c,funkca);
+  printf("sin(%7.3f)-%7.3f=%7.3f\t",b,c,funkcb);
+  printf("sin(%7.3f)-%7.3f=%7.3f\n",x,c,sin(x));
+   i++;
+ }
+
+ printf("\nNumber of iterations: %d\n",i);
+ printf("Root is at x=%.5f, because sin(x) is %.3f\n",x,sin(x));
+ return 0;
+}
+
+TEST
+
